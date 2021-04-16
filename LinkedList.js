@@ -45,6 +45,19 @@ class LinkedList {
         this.length++
     }
 
+
+    // define remove at index method
+    removeAtIndex(index) {
+        if (index === 0) return this.removeHead()
+
+        const prev = this.getByIndex(index - 1)
+        if(prev == null) return null
+
+        // tcut out the next value
+        prev.next = prev.next.next
+        this.length--
+    }
+
     // helper function for print the linkedList
     print() {
         let output = '' // we leave empty dtring for default print

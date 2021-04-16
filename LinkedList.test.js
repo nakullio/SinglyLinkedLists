@@ -148,7 +148,7 @@ describe('#removeAtIndex', () => {
     describe('with index in the middle', () => {
         test('remove at the given index', ()=> {
             const ll = LinkedList.fromValues(10, 20, 30, 40)
-            ll.insertAtIndex(2)
+            ll.removeAtIndex(2)
 
             // get our node by
             const node = ll.getByIndex(1)
