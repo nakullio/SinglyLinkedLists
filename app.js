@@ -1,9 +1,8 @@
 //  for visual the work we doing
 const LinkedList = require('./LinkedList')
 
-const ll = new LinkedList()
-ll.insertAtHead(10)
-console.log(ll)
-ll.insertAtHead(20)
+const ll = LinkedList.fromValues(10, 20, 30, 40)
+ll.print()
 
-console.log(ll)
+// console log for see how to get the first element
+console.log(ll.getByIndex(2).value)

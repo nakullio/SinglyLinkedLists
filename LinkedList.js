@@ -16,6 +16,25 @@ class LinkedList {
 
     getByIndex(index) {
         if (index < 0 || index >= this.length) return null
+
+        // to loop through all the element, get the current element first
+        let current = this.head
+        for (let i = 0; i < index; i++) {
+            current = current.next
+
+        }
+        return current
+    }
+
+    // helper function for print the linkedList
+    print() {
+        let output = '' // we leave empty dtring for default print
+        let current = this.head
+        while (current) {
+            output = `${output}${current.value} -> ` // to styled them in good way
+            current = current.next
+        }
+        console.log(`${output}null`)
     }
 }
 
