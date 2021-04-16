@@ -6,5 +6,5 @@ ll.print()
 
 // console log for see how to get the first element
 // console.log(ll.getByIndex(2).value)
-ll.removeHead()
+ll.removeAtIndex(2)
 ll.print()
