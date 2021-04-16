@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1618582386259" clover="3.2.0">
-  <project timestamp="1618582386259" name="All files">
+<coverage generated="1618582979357" clover="3.2.0">
+  <project timestamp="1618582979357" name="All files">
     <metrics statements="29" coveredstatements="23" conditionals="8" coveredconditionals="8" methods="7" coveredmethods="6" elements="44" coveredelements="37" complexity="0" loc="29" ncloc="29" packages="1" files="1" classes="1"/>
     <file name="LinkedList.js" path="/Users/nakulamarvellio/Documents/Projects/Algorithms & Data Structures/SinglyLinkedList/LinkedList.js">
       <metrics statements="29" coveredstatements="23" conditionals="8" coveredconditionals="8" methods="7" coveredmethods="6"/>
-      <line num="4" count="9" type="stmt"/>
-      <line num="5" count="9" type="stmt"/>
-      <line num="11" count="23" type="stmt"/>
-      <line num="13" count="23" type="stmt"/>
-      <line num="14" count="23" type="stmt"/>
+      <line num="4" count="10" type="stmt"/>
+      <line num="5" count="10" type="stmt"/>
+      <line num="11" count="26" type="stmt"/>
+      <line num="13" count="26" type="stmt"/>
+      <line num="14" count="26" type="stmt"/>
       <line num="18" count="8" type="cond" truecount="4" falsecount="0"/>
       <line num="21" count="4" type="stmt"/>
       <line num="22" count="4" type="stmt"/>
@@ -25,13 +25,13 @@
       <line num="45" count="0" type="stmt"/>
       <line num="46" count="0" type="stmt"/>
       <line num="48" count="0" type="stmt"/>
-      <line num="54" count="24" type="stmt"/>
-      <line num="55" count="24" type="stmt"/>
+      <line num="54" count="27" type="stmt"/>
+      <line num="55" count="27" type="stmt"/>
       <line num="60" count="1" type="stmt"/>
-      <line num="61" count="8" type="stmt"/>
-      <line num="63" count="8" type="stmt"/>
-      <line num="64" count="20" type="stmt"/>
-      <line num="66" count="8" type="stmt"/>
+      <line num="61" count="9" type="stmt"/>
+      <line num="63" count="9" type="stmt"/>
+      <line num="64" count="23" type="stmt"/>
+      <line num="66" count="9" type="stmt"/>
       <line num="69" count="1" type="stmt"/>
     </file>
   </project>

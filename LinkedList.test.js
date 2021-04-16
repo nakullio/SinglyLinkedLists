@@ -100,3 +100,17 @@ describe('#insertAtIndex', ()=> {
     })
 })
 
+
+// remove element enviro test
+describe('#removeHead', ()=> {
+    test('remove the head', () => {
+        // create new linkedlist
+        const ll = LinkedList.fromValues(10, 20, 30)
+        ll.removeHead()
+
+
+        expect(ll.head.value).toBe(20)
+        expect(ll.length).toBe(2)
+    })
+})
+

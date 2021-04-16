@@ -26,6 +26,8 @@ class LinkedList {
         return current
     }
 
+    // define the remove method
+
     insertAtIndex(index, value) {
         if (index === 0) return this.insertAtHead(value)
 
