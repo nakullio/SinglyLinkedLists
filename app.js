@@ -5,4 +5,6 @@ const ll = LinkedList.fromValues(10, 20, 30, 40)
 ll.print()
 
 // console log for see how to get the first element
-console.log(ll.getByIndex(2).value)
+// console.log(ll.getByIndex(2).value)
+ll.insertAtIndex(2, 60)
+ll.print()

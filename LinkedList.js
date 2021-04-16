@@ -26,6 +26,17 @@ class LinkedList {
         return current
     }
 
+    insertAtIndex(index, value) {
+        if (index === 0) return this.insertAtHead(value)
+
+        const prev = this.getByIndex(index - 1)
+        if(prev == null) return null
+
+        // take the prev.next into new node
+        prev.next = new LinkedListNode(value, prev.next)
+        this.length++
+    }
+
     // helper function for print the linkedList
     print() {
         let output = '' // we leave empty dtring for default print
